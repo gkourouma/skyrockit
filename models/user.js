@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 const applicationSchema = new mongoose.Schema({
   company: {
     type: String,
-    requires: true
+    required: true
   },
   title: {
     type: String,
-    requires: true
+    required: true
   },
   notes: {
     type: String,
